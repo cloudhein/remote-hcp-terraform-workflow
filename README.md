@@ -7,7 +7,7 @@
 1. Create Remote Backend in `app.terraform.io` for storing state files & state management
 2. Provision AWS Infrastructure and store state files in remote HCP terraform
 
-### Provision remote backend in hcp terraform for state files storing & state managment in hcp terraform
+### Create Remote Backend in `app.terraform.io` for storing state files & state management
 
 #### Remote backend diagram overview
 
@@ -27,7 +27,7 @@
 
 7. `terraform apply -auto-approve`
 
-### Using Remote HCP Terraform Implementation Guides
+### Provision AWS Infrastructure and store state files in remote HCP terraform
 
 #### Remote HCP Terraform Workflow Diagram Overview
 
