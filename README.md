@@ -1,8 +1,15 @@
 # Project Implementation Guidelines Step by Step
 
-## Provision remote backend in hcp terraform for state files storing & state managment in hcp terraform
+## Project Overview
 
-### Remote backend diagram overview
+### This project involves 2 parts
+
+1. Create Remote Backend in `app.terraform.io` for storing state files & state management
+2. Provision AWS Infrastructure and store state files in remote HCP terraform
+
+### Provision remote backend in hcp terraform for state files storing & state managment in hcp terraform
+
+#### Remote backend diagram overview
 
 ![alt text](./images/01.png)
 
@@ -20,9 +27,9 @@
 
 7. `terraform apply -auto-approve`
 
-## Using Remote HCP Terraform Implementation Guides
+### Using Remote HCP Terraform Implementation Guides
 
-### Remote HCP Terraform Workflow Diagram Overview
+#### Remote HCP Terraform Workflow Diagram Overview
 
 ![alt text](./images/02.png)
 
