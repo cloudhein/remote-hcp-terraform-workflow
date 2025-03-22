@@ -33,13 +33,16 @@
 
 ![alt text](./images/02.png)
 
-1. First do `terraform login` using team-level-token of your organization
+1. Go to parent directory of the project
+2. Modify and add your `backend config of hcp terraform` in backend.tf file
 
-2. Do `terraform init` for initializing hcp terraform and provider plugins
+3. Do `terraform login` using team-level-token of your organization
 
-3. `terraform fmt`
+4. Do `terraform init` for initializing hcp terraform backend and provider plugins
 
-4. `terraform validate`
+5. `terraform fmt`
+
+6. `terraform validate`
 
 5. `terraform plan` 
 
